@@ -88,6 +88,7 @@
     <Compile Include="DirectShow\MediaPlayers\Vmr9Allocator.cs" />
     <Compile Include="DirectX\Direct3D.cs" />
     <Compile Include="Effects\DeeperColor.cs" />
+    <Compile Include="Effects\DoubleVideoAlpha.cs" />
     <Compile Include="MediaFoundation\COMUtils.cs" />
     <Compile Include="MediaFoundation\EvrPresenter.cs" />
     <Compile Include="MediaFoundation\Interop.cs" />
@@ -111,7 +112,8 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="Effects\DeeperColor.ps" />
+    <Resource Include="Effects\DeeperColor.ps" />
+    <Resource Include="Effects\DoubleVideoAlpha.ps" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -119,6 +121,7 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Effects\DoubleVideoAlpha.fx" />
     <None Include="Assemblies\DirectShowLib-2005.dll" />
     <Content Include="Effects\DeeperColor.fx" />
   </ItemGroup>

@@ -15,7 +15,7 @@ namespace WPFMediaKit.Effects
 
         public DoubleVideoAlphaEffect()
         {
-            var u = new Uri(@"pack://application:,,,/" + AssemblyShortName + ";component/Effects/DoubleAlpha.ps");
+            var u = new Uri(@"pack://application:,,,/" + AssemblyShortName + ";component/Effects/DoubleVideoAlpha.ps");
             PixelShader = new PixelShader { UriSource = u };
             UpdateShaderValue(InputProperty);
         }
